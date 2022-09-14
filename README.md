@@ -27,20 +27,17 @@ Misc:
     including null. Will upload with repo
 
 - splitting weather condition column by condition (values have sub-conditions
-delimited by '/', 'and', and 'with') towards encoding conditions. Still
-programming code to split categories. Seems like there may be instances where
-categories are repeated based on keywords, so need to filter to keep row count
-same as original dataframe.
+delimited by '/', 'and', and 'with') towards encoding conditions. 
 
 - Weather Condition Split categories as of 2022-09-13:
-    - rain: 185128+
-    - snow: 53748+
-    - ice: 318+
-    - wind: 42504+
-    - clouds: 1024811+
-    - thunder: 21599+
-    - fog: 44044+
-    - fair: 1122389+
-    - tornado: 9? 
-    - dust: 378+?
+    - clouds: 1109693
+    - dust: 7629
+    - fair: 1296212
+    - fog: 80962
+    - ice: 2105
+    - rain: 196740
+    - snow: 57673
+    - thunder: 32385
+    - tornado: 11
+    - wind: 42531
     - other: ?
