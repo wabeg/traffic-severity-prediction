@@ -10,13 +10,13 @@ towards reducing accident severity.
 ## Cleaning
 
 To Drop:
+
 - number
 - zip
 - wind_chill (high correlation with temperature and wind speed)
 - airport_code (not relevant)
 - nautical_twilight, astronomical_twilight (similar to other day/night metrics)
-- weather_timestamp (not relevant, assuming weather time is sufficiently close
-to time of accident)
+- weather_timestamp (not relevant, assuming weather time is sufficiently close to time of accident)
 - wind_direction (to investigate towards possible drop)
 - other weather conditions (precipition, etc) (do we want to assume null values are 0)
 - wind_speed (to investigate)
@@ -46,16 +46,16 @@ Roadmap:
 
 EDA via:
 
--Relationships between time/day of the day/week, location (i.e. junction/intersection) and severity of accident
--Relationships between state/county/city and severity of accident
--Relationships between timezone and severity of accident or timezone and locations of accidents or timezone and timing of most frequent accidents
--Relationships between weather features (i.e. temp, wind_chill, humidity, pressure, visibility, wind_direction, wind_speed, precipitation, weather_condition) and severity, location of accidents, timing of most frequent accidents
--Most frequent points of interest (i.e. amenities, bumps, give_ways, junctions, roundabouts, etc.) per severity or per frequency of accidents
--Use k-prototype clustering (best for mix of categorical and numerical data) for transfer learning
--First optimize for silhouette scores (find range of params)
--Then use labels w/ varying params for supervised classifier
--Create a Tableau dashboard with U.S. map and diff stats/filters
+- Relationships between time/day of the day/week, location (i.e. junction/intersection) and severity of accident
+- Relationships between state/county/city and severity of accident
+- Relationships between timezone and severity of accident or timezone and locations of accidents or timezone and timing of most frequent accidents
+- Relationships between weather features (i.e. temp, wind_chill, humidity, pressure, visibility, wind_direction, wind_speed, precipitation, weather_condition) and severity, location of accidents, timing of most frequent accidents
+- Most frequent points of interest (i.e. amenities, bumps, give_ways, junctions, roundabouts, etc.) per severity or per frequency of accidents
+- Use k-prototype clustering (best for mix of categorical and numerical data) for transfer learning
+- First optimize for silhouette scores (find range of params)
+- Then use labels w/ varying params for supervised classifier
+- Create a Tableau dashboard with U.S. map and diff stats/filters
 
 Modeling
 
--Classification models w/ appropriate metrics on severity
+- Classification models w/ appropriate metrics on severity
