@@ -41,3 +41,21 @@ delimited by '/', 'and', and 'with') towards encoding conditions.
     - tornado: 11
     - wind: 42531
     - other: ?
+
+Roadmap:
+
+EDA via:
+
+-Relationships between time/day of the day/week, location (i.e. junction/intersection) and severity of accident
+-Relationships between state/county/city and severity of accident
+-Relationships between timezone and severity of accident or timezone and locations of accidents or timezone and timing of most frequent accidents
+-Relationships between weather features (i.e. temp, wind_chill, humidity, pressure, visibility, wind_direction, wind_speed, precipitation, weather_condition) and severity, location of accidents, timing of most frequent accidents
+-Most frequent points of interest (i.e. amenities, bumps, give_ways, junctions, roundabouts, etc.) per severity or per frequency of accidents
+-Use k-prototype clustering (best for mix of categorical and numerical data) for transfer learning
+-First optimize for silhouette scores (find range of params)
+-Then use labels w/ varying params for supervised classifier
+-Create a Tableau dashboard with U.S. map and diff stats/filters
+
+Modeling
+
+-Classification models w/ appropriate metrics on severity
