@@ -25,7 +25,7 @@ def live():
     lis[15] = int(input('Presence of Stop (0:no, 1:yes): '))
     #lis[16] = int(input('Presence of Traffic_Calming (0:no, 1:yes): '))
     #lis[17] = int(input('Presence of Traffic_Signal (0:no, 1:yes): '))
-    lis[18] = int(input('Presence of Sunrise_Sunset (0:Day, 1:Night): '))
+    lis[18] = int(input('0:Day, 1:Night: '))
     
     wc = int(input('Weather Condition: 1 for cloudy, 2 for dusty, 3 for fair, 4 for fog, 5 for ice, 6 for rain, 7 for snow, 8 for thunder, 9 for wind: '))
     if wc ==1: 
