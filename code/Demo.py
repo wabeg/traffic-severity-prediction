@@ -261,8 +261,8 @@ def live():
     lis = min_max.fit_transform(np.array(lis).reshape((1,-1)))
     pred = XGB_mod.predict_proba(lis)[0][1]
     if pred >= .05:
-        print('Servere, Send Help!')
+        print('Severe, Send Help!')
     else:
-        print('Not Servere')
+        print('Not Severe')
     
 live()
