@@ -165,7 +165,7 @@ def live():
         lis[86] = 1
     else:
         print('Invalid input')
-    year = int(input('Year: '))
+    year = 2021
     if year == 2016:
         lis[87] = 1
     elif year == 2017:
