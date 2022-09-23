@@ -13,18 +13,18 @@ def live():
     lis[3] = float(input('Visibility(mi.): '))
     lis[4] = float(input('Wind_Speed(mph): '))
     lis[5] = float(input('Precipitation(in.): '))
-    lis[6] = int(input('Presence of Amenity (0:no, 1:yes): '))
-    lis[7] = int(input('Presence of Bump (0:no, 1:yes): '))
+    #lis[6] = int(input('Presence of Amenity (0:no, 1:yes): '))
+    #lis[7] = int(input('Presence of Bump (0:no, 1:yes): '))
     lis[8] = int(input('Presence of Crossing (0:no, 1:yes): '))
-    lis[9] = int(input('Presence of Give_Way (0:no, 1:yes): '))
+    #lis[9] = int(input('Presence of Give_Way (0:no, 1:yes): '))
     lis[10] = int(input('Presence of Junction (0:no, 1:yes): '))
-    lis[11] = int(input('Presence of No_Exit (0:no, 1:yes): '))
-    lis[12] = int(input('Presence of Railway (0:no, 1:yes): '))
-    lis[13] = int(input('Presence of Roundabout (0:no, 1:yes): '))
-    lis[14] = int(input('Presence of Station (0:no, 1:yes): '))
+    #lis[11] = int(input('Presence of No_Exit (0:no, 1:yes): '))
+    #lis[12] = int(input('Presence of Railway (0:no, 1:yes): '))
+    #lis[13] = int(input('Presence of Roundabout (0:no, 1:yes): '))
+    #lis[14] = int(input('Presence of Station (0:no, 1:yes): '))
     lis[15] = int(input('Presence of Stop (0:no, 1:yes): '))
-    lis[16] = int(input('Presence of Traffic_Calming (0:no, 1:yes): '))
-    lis[17] = int(input('Presence of Traffic_Signal (0:no, 1:yes): '))
+    #lis[16] = int(input('Presence of Traffic_Calming (0:no, 1:yes): '))
+    #lis[17] = int(input('Presence of Traffic_Signal (0:no, 1:yes): '))
     lis[18] = int(input('Presence of Sunrise_Sunset (0:Day, 1:Night): '))
     
     wc = int(input('Weather Condition: 1 for cloudy, 2 for dusty, 3 for fair, 4 for fog, 5 for ice, 6 for rain, 7 for snow, 8 for thunder, 9 for wind: '))
@@ -121,31 +121,31 @@ def live():
         lis[66] = 1
     elif state == 'OR':
         lis[67] = 1
-    elif lis[129] == 'PA':
+    elif state == 'PA':
         lis[68] = 1
-    elif lis[129] == 'RI':
+    elif state == 'RI':
         lis[69] = 1
-    elif lis[129] == 'SC':
+    elif state == 'SC':
         lis[70] = 1
-    elif lis[129] == 'SD':
+    elif state == 'SD':
         lis[71] = 1
-    elif lis[129] == 'TN':
+    elif state == 'TN':
         lis[72] = 1
-    elif lis[129] == 'TX':
+    elif state == 'TX':
         lis[73] = 1
-    elif lis[129] == 'UT':
+    elif state == 'UT':
         lis[74] = 1
-    elif lis[129] == 'VA':
+    elif state == 'VA':
         lis[75] = 1
-    elif lis[129] == 'VT':
+    elif state == 'VT':
         lis[76] = 1
-    elif lis[129] == 'WA':
+    elif state == 'WA':
         lis[77] = 1
-    elif lis[129] == 'WI':
+    elif state == 'WI':
         lis[78] = 1
-    elif lis[129] == 'WV':
+    elif state == 'WV':
         lis[79] = 1
-    elif lis[129] == 'WY':
+    elif state == 'WY':
         lis[80] = 1
     side = int(input('Side: 1 for L, 2 for R: '))
     if side == 1:
@@ -154,7 +154,7 @@ def live():
         lis[82] = 1
     else:
         print('Invalid input')
-    timezone = int(input('Timezone: 1 for US/Central, 2 for US/Eastern, 3 for US/Mountain, 4 for US/Pacific: '))
+    timezone = 4
     if timezone == 1:
         lis[83] = 1
     elif timezone == 2:
