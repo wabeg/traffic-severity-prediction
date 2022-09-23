@@ -194,12 +194,12 @@ Our models along with our EDA appear to show that the current measures in place 
 
 ## Table of Contents
 - code
-    - Cleaning.ipynb: Column Removals, Missing Value Imputation
-    - EDA.ipynb: Visualizations and Interpretations
-    - Preprocessing.ipynb
-    - Clustering-and-PCA.ipynb: KMeans, KPrototypes, PCA and Performance Evaluation
-    - Models_Classification.ipynb: Logistic Regression, Random Forests, XGBoost and Performance Evaluation
-    - NN_Classification.ipynb: Neural Network and Performance Evaluation
+    - 01-Cleaning.ipynb: Column Removals, Missing Value Imputation
+    - 02-EDA.ipynb: Visualizations and Interpretations
+    - 03-Preprocessing.ipynb
+    - 04-Clustering-and-PCA.ipynb: KMeans, KPrototypes, PCA and Performance Evaluation
+    - 05-Models_Classification.ipynb: Logistic Regression, Random Forests, XGBoost and Performance Evaluation
+    - 06-NN_Classification.ipynb: Neural Network and Performance Evaluation
     - Demo.py: Python script demonstration of how our model works
 - images
     - Various relevant visualizations
