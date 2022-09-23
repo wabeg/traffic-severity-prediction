@@ -114,7 +114,7 @@ Data consists of roughly 3,000,000 car accidents spanning from 2016-2021. The da
 ![% of Total Accidents per Severity vs. Weather Condition](./images/severity_per_weather_condition.png)
 
 - Low severity accidents are even across the board, suggesting they occur at approximately the same rate independent of weather conditions
-- The most notable distinction in accident proportions occur in icy conditions, where roughly 25% of high-severity accidents occur in icy conditions
+- In icy conditions, there is a higher proportion of high-severity accidents than low-severity accidents
 - Low severity accidents occur at a slightly higher rate in dusty, fair, fog, and windy conditions as well
 
 **Other Findings**:
