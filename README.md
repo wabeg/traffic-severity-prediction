@@ -200,10 +200,13 @@ Our models along with our EDA appear to show that the current measures in place 
     - Clustering-and-PCA.ipynb: KMeans, KPrototypes, PCA and Performance Evaluation
     - Models_Classification.ipynb: Logistic Regression, Random Forests, XGBoost and Performance Evaluation
     - NN_Classification.ipynb: Neural Network and Performance Evaluation
+    - Demo.py: Python script demonstration of how our model works
 - images
     - Various relevant visualizations
-- models
-    - Saved neural network model 
+- models: Saved models
+    - model1: Saved neural network model and associated metadata / variables
+    - xgb.sav: Saved final XGBoost model
+    - min_max.sav: Saved min-max scaled data
 - data (all data files should be placed in this directory; links below)
     - [Source](https://drive.google.com/file/d/18nSukplBmXZDy4DNswwo1F8pbyRRmspV/view?usp=sharing)
     - [Clean 1](https://drive.google.com/file/d/1oTmo0u0msFqQyycw-hwVg7ZxLFkKf5vT/view?usp=sharing)
@@ -219,6 +222,7 @@ Our models along with our EDA appear to show that the current measures in place 
 - Matplotlib
 - Seaborn
 - Tensorflow / Keras
+- XGBoost
 - (`kmodes`)[https://pypi.org/project/kmodes/]: for KPrototypes algorithm used in clustering
 - (`imbalanced-learn`)[https://pypi.org/project/imbalanced-learn/]: for resolving class imbalance
 
